@@ -1,0 +1,12 @@
+{
+  "hourly_forecast": {
+    "primary_key": ["timestamp"],
+    "columns": {
+      "timestamp": "STRING",
+      "temperature_C": "FLOAT",
+      "humidity_percent": "INTEGER",
+      "precipitation_mm": "FLOAT",
+      "wind_speed_mps": "FLOAT"
+    }
+  }
+}
